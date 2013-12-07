@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-xevlna
 Version:	1.0
-Release:	4
+Release:	5
 Summary:	Insert non-breakable spaces using XeTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/generic/xevlna
