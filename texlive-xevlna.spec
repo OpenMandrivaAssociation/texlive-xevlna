@@ -5,8 +5,8 @@
 # catalog-license lppl1.3
 # catalog-version 1.0
 Name:		texlive-xevlna
-Version:	1.0
-Release:	9
+Version:	1.1
+Release:	1
 Summary:	Insert non-breakable spaces using XeTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/generic/xevlna
