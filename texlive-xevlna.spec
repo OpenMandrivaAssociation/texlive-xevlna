@@ -1,18 +1,12 @@
-# revision 30086
-# category Package
-# catalog-ctan /macros/xetex/generic/xevlna
-# catalog-date 2013-04-23 11:12:19 +0200
-# catalog-license lppl1.3
-# catalog-version 1.0
 Name:		texlive-xevlna
-Version:	1.1
-Release:	2
+Version:	43864
+Release:	1
 Summary:	Insert non-breakable spaces using XeTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/generic/xevlna
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xevlna.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xevlna.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xevlna.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xevlna.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -29,12 +23,12 @@ cannot reliably be recognised.) The package works both with
 (Plain) XeTeX and with XeLaTeX.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -47,7 +41,7 @@ cannot reliably be recognised.) The package works both with
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
