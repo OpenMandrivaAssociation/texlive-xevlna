@@ -1,6 +1,6 @@
 Name:		texlive-xevlna
 Version:	43864
-Release:	1
+Release:	2
 Summary:	Insert non-breakable spaces using XeTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/generic/xevlna
