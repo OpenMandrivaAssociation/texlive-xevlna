@@ -3,7 +3,7 @@ Version:	43864
 Release:	2
 Summary:	Insert non-breakable spaces using XeTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/xetex/generic/xevlna
+URL:		https://www.ctan.org/tex-archive/macros/xetex/generic/xevlna
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xevlna.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xevlna.doc.r%{version}.tar.xz
